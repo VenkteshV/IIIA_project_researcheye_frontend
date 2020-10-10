@@ -1,0 +1,93 @@
+body {
+  font: 100% $font-lato;
+  font-weight: 400;
+  color: $dark-gray-color;
+  letter-spacing: 0.075rem;
+}
+
+input,
+textarea,
+select,
+button {
+  letter-spacing: 0.075rem;
+}
+
+.select{
+  margin-top:2rem;
+  width: 30rem;
+}
+.react-bs-table table {
+  min-width: 1000px;
+}
+.hindexValue {
+  padding-left:20px;
+}
+.researchInterests {
+  display: 'flex';
+  alignItems: 'center';
+  justifyContent: 'center';
+  float: right;
+  margin-top: -66rem;
+}
+.hIndex {
+  color: lightseagreen;
+}
+.loader {
+  width: auto;
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('../images/loader.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card_lo {
+  background-color: white;
+  padding: 32px;
+  margin-top:2rem;
+  width: 20%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
+    0 5px 15px 0 rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  font-size: calc(10px + 2vmin);
+
+}
+
+.mode {
+  float: right;
+  margin-top: -7rem
+}
+.search-box-element {
+  display: block;
+  box-sizing: border-box;
+  float:left;
+  width: 10%;
+  height: 3rem;
+  padding: 3px 6px;
+  border: 1px solid $light-gray-color;
+  margin: 0 0 1rem;
+  font-family: inherit;
+  font-size: 1.25rem;
+  color: $medium-gray-color;
+  background-color: $white-color;
+  border-radius: 1px;
+  transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+}
+.label-style {
+  margin-top: 66px;
+font-size: 3rem
+}
+.fc-content-name,.fc-content-category,.fc-content-nationality,.fc-content-contractExpiry,.fc-content-penalties,.fc-content-workRate{
+  font-size: 1.5rem;
+}
+.fc-content-name {
+  width: 200px;
+}
+.Name {
+  width: 200px;
+}
+.sort-column,.nationality ,.contractExpiry,.patentCount,.penalties{
+  font-size: 2rem;
+}

@@ -1,0 +1,2 @@
+export  const query =  "{patent_inventors{id country affliation  name:inventor patentCount:count_of_patents patents {patenTitle:title_localized code }}}";
+export const researcher = "{researcher{  id  affiliation citations  hindex index author number_of_papers research_interests publications{ titles venues citations_per_paper year} }}"
